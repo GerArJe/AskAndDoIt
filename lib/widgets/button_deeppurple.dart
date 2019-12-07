@@ -3,11 +3,11 @@ import 'package:flutter/material.dart';
 class ButtonDeepPurple extends StatefulWidget{
 
   final String text;
-  /**final VoidCallback onPressed;**/
+  final VoidCallback onPressed;
 
   ButtonDeepPurple({Key key,
     @required this.text,
-    /**@required this.onPressed**/});
+    @required this.onPressed});
 
   @override
   State<StatefulWidget> createState() {
@@ -22,7 +22,7 @@ class _ButtonDeepPurple extends State<ButtonDeepPurple>{
   Widget build(BuildContext context) {
     // TODO: implement build
     return InkWell(
-      /**onTap: widget.onPressed,**/
+      onTap: widget.onPressed,
       child: Container(
         margin: EdgeInsets.only(
             top: 30.0,
