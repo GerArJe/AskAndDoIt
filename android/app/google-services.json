@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1076987563984",
+    "firebase_url": "https://ask-and-doit.firebaseio.com",
+    "project_id": "ask-and-doit",
+    "storage_bucket": "ask-and-doit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076987563984:android:794d4d8da98b373627b3d5",
+        "android_client_info": {
+          "package_name": "com.gerarje.ask_and_doit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1076987563984-7shi8el73mhlfd0klf0cqkei76mn14tr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA92_Of-LLlOlH5XGdBe4tJdK3NtCWRMAM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1076987563984-7shi8el73mhlfd0klf0cqkei76mn14tr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
