@@ -33,13 +33,13 @@ class _GameViewState extends State<GameView> {
               Flexible(
                 child: Container(
                     margin: EdgeInsets.only(
-                        top: 10.0, left: 20.0, right: 20.0, bottom: 10.0),
+                        top: 5.0, left: 10.0, right: 10.0, bottom: 5.0),
                     child: randomQuestion()),
               ),
               Flexible(
                 child: Container(
                     margin: EdgeInsets.only(
-                        top: 10.0, left: 20.0, right: 20.0, bottom: 10.0),
+                        top: 5.0, left: 10.0, right: 10.0, bottom: 5.0),
                     child: randomChallenge()),
               ),
               ButtonDeepPurple(
@@ -100,7 +100,7 @@ class _GameViewState extends State<GameView> {
     return Text(
       "Pregunta: ${CloudFirestoreAPI().getRandomQuestion(snapshot.data.documents)}",
       style: TextStyle(
-        fontSize: 37.0,
+        fontSize: 27.0,
         fontFamily: "Lato",
         color: Colors.white,
         fontWeight: FontWeight.bold,
@@ -114,7 +114,7 @@ class _GameViewState extends State<GameView> {
     return Text(
       "Reto: ${CloudFirestoreAPI().getRandomChallenge(snapshot.data.documents)}",
       style: TextStyle(
-        fontSize: 37.0,
+        fontSize: 27.0,
         fontFamily: "Lato",
         color: Colors.white,
         fontWeight: FontWeight.bold,
