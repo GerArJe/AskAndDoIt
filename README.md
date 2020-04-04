@@ -1,6 +1,6 @@
-# ask_and_doit
+# Ask And Do It
 
-A new Flutter application.
+A game about questions and challenges developed with **Flutter**. In the game you have to do answer the question and do the challenge in the screen. Questions and challenges come from a Data Base in **Firebase**.
 
 ## Getting Started
 
